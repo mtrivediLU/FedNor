@@ -87,7 +87,7 @@
         if (progress < 1) {
           requestAnimationFrame(tick);
         } else {
-          el.textContent = (isFloat ? target.toFixed(1) : target) + suffix;
+          el.textContent = (isFloat ? target.toFixed(1) : String(target)) + suffix;
         }
       };
       requestAnimationFrame(tick);
@@ -113,10 +113,13 @@
       ".fit-cards article",
       ".flow article",
       ".work-card",
+      ".employer-card",
       ".matrix article",
       ".job-grid article",
       ".cert-grid article",
       ".stats article",
+      ".skill-cat",
+      ".role-card",
       ".story-card",
       ".hero-card",
     ].join(", "));
