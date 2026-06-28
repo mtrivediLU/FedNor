@@ -14,6 +14,7 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <div id="page-progress" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -79,10 +80,22 @@
     </section>
 
     <section class="stats container" aria-label="Career highlights">
-      <article><strong>8+</strong><span>Years across data, BI, software, and IT systems</span></article>
-      <article><strong>40%</strong><span>Manual reporting reduction through automation</span></article>
-      <article><strong>13</strong><span>Enterprise platforms launched across global regions</span></article>
-      <article><strong>99.5%</strong><span>F1 score in published analytical research</span></article>
+      <article>
+        <strong data-count="8" data-suffix="+">8+</strong>
+        <span>Years across data, BI, software, and IT systems</span>
+      </article>
+      <article>
+        <strong data-count="40" data-suffix="%">40%</strong>
+        <span>Manual reporting reduction through automation</span>
+      </article>
+      <article>
+        <strong data-count="13" data-suffix="">13</strong>
+        <span>Enterprise platforms launched across global regions</span>
+      </article>
+      <article>
+        <strong data-count="99.5" data-suffix="%">99.5%</strong>
+        <span>F1 score in published analytical research</span>
+      </article>
     </section>
 
     <section class="section" id="fit">
@@ -283,7 +296,7 @@
           <article><img src="media/cert_pl300_power_bi.png" alt="Microsoft Power BI Data Analyst Associate certification" loading="lazy" decoding="async" /><div><span>Microsoft</span><h3>Power BI Data Analyst Associate, PL-300</h3><p>Relevant to data modelling, reporting, semantic logic, measures, dashboards, and stakeholder analytics.</p></div></article>
           <article><img src="media/cert_az900_azure.png" alt="Microsoft Azure Fundamentals certification" loading="lazy" decoding="async" /><div><span>Microsoft</span><h3>Azure Fundamentals, AZ-900</h3><p>Relevant to cloud data concepts, identity, governance, infrastructure awareness, and modern data platforms.</p></div></article>
           <article><img src="media/cert_pl400_power_platform.png" alt="Microsoft Power Platform Developer Associate certification" loading="lazy" decoding="async" /><div><span>Microsoft</span><h3>Power Platform Developer Associate, PL-400</h3><p>Relevant to software solutions, automation, business applications, process improvement, and system integration.</p></div></article>
-          <article><img src="media/cert_salesforce_agentforce.png" alt="Salesforce Agentforce Specialist certification" loading="lazy" decoding="async" /><div><span>Salesforce</span><h3>Agentforce Specialist, AI-201</h3><p>Relevant to CRM-connected data, automation, and safe use of AI-enabled enterprise data workflows.</p></div></article>
+          <article><img src="media/cert_salesforce_agentforce.png" alt="Salesforce Agentforce Specialist certification" loading="lazy" decoding="async" /><div><span>Microsoft</span><h3>Agentforce Specialist, AI-201</h3><p>Relevant to CRM-connected data, automation, and safe use of AI-enabled enterprise data workflows.</p></div></article>
         </div>
       </div>
     </section>
@@ -315,5 +328,7 @@
       <a href="https://www.mihirtrivedi.tech/" target="_blank" rel="noopener">Website</a>
     </div>
   </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 </body>
 </html>
